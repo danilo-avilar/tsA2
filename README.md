@@ -51,18 +51,18 @@ tsA2
 
 ## Descritivo Geral dos Módulos
 ### Sources
-Arquivos de implementação
-**`audiometry.c`** - Lógica para realização do teste simplificado de acuidade auditiva
-**`buzzer.c`** - Controle do buzzer
-**`handlers.c`** - Funções de manipulação geral
-**`oled.c`** - Controle do display OLED
-**`main.c`** - Loop principal
+Arquivos de implementação  
+**`audiometry.c`** - Lógica para realização do teste simplificado de acuidade auditiva  
+**`buzzer.c`** - Controle do buzzer  
+**`handlers.c`** - Funções de manipulação geral  
+**`oled.c`** - Controle do display OLED  
+**`main.c`** - Loop principal  
 ### Headers
-Definição de protótipos das funções, definições específicas de cada módulo e definições de pinos associados
-**`audiometry.h`**
+Definição de protótipos das funções, definições específicas de cada módulo e definições de pinos associados  
+**`audiometry.h`**  
 > `ADMT_TIMER_ACUITY_HEARING`: Constante que determina o tempo (em ms) de realização de cada etapa do teste de acuidade
 > `ADMT_FREQUENCY_RANGE`: Faixas de frequências (em kHz) que serão avaliadas
 
-**`buzzer.h`**
-**`handlers.h`**
-**`oled.h`**
+**`buzzer.h`**  
+**`handlers.h`**  
+**`oled.h`**  
